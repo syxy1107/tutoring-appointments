@@ -1,0 +1,601 @@
+25-03-24.11:38:23.989 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:23.989 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:23.989 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:23.989 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:23.989 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:24.041 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:24.041 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:24.041 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:24.041 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:38:24.041 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.441 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.446 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.447 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.447 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.450 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.483 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.494 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.495 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.495 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:40:10.498 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.508 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.513 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.513 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.515 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.515 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.550 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.562 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.562 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.562 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:41:50.565 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.462 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.463 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.484 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.485 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.485 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.502 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.523 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.535 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.535 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:14.535 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:45.006 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:45.015 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:45.015 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:45.015 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:42:45.016 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:06.947 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:06.954 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:06.954 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:06.955 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:06.959 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:06.988 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:07.002 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:07.020 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:07.020 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.11:45:07.020 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select startTime,endTime from activity         where day=? and status=1 and person_count>0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'person_count' in 'where clause'
+25-03-24.14:54:45.790 [http-nio-8095-exec-10] WARN  PageNotFound           - No mapping for OPTIONS /user/user/user/myMessage
+25-03-24.14:54:45.790 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for OPTIONS /user/user/user/myMessage
+25-03-24.14:54:48.544 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for OPTIONS /user/user/user/myMessage
+25-03-24.14:54:48.544 [http-nio-8095-exec-6] WARN  PageNotFound           - No mapping for OPTIONS /user/user/user/myMessage
+25-03-24.15:22:05.117 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m1s768ms883µs800ns).
+25-03-24.16:15:39.088 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m33s761ms402µs600ns).
+25-03-24.16:15:49.120 [http-nio-8095-exec-5] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61337e12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+25-03-24.16:15:49.365 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'student_id' cannot be null
+### The error may exist in file [E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes\mybatis\mapper\ActivityOrderResultMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO activity_order (             student_id, activity_id, create_time         ) VALUES (                      ?, ?, ?                  )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'student_id' cannot be null
+; Column 'student_id' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'student_id' cannot be null
+25-03-24.16:20:13.167 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s645ms611µs200ns).
+25-03-24.16:26:22.088 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m8s921ms879µs400ns).
+25-03-24.16:29:28.557 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:29:28.638 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:31:49.174 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:31:49.249 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:32:43.916 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:32:47.238 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:32:47.296 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:33:21.510 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:33:21.586 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:34:04.065 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:34:04.076 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:34:25.720 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:34:26.930 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:37:57.601 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m20s158ms749µs900ns).
+25-03-24.16:37:57.651 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:37:57.664 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.16:38:42.248 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s957ms58µs400ns).
+25-03-24.19:01:26.165 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /main.9d8ac020907960f95f8c.hot-update.json
+25-03-24.19:20:08.780 [http-nio-8095-exec-8] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:20:08.783 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:20:26.420 [http-nio-8095-exec-9] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:20:26.420 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:24:43.280 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:24:43.280 [http-nio-8095-exec-10] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:26:51.542 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:27:04.561 [http-nio-8095-exec-10] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:27:04.561 [http-nio-8095-exec-9] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:27:15.525 [http-nio-8095-exec-6] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:27:22.026 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:27:22.029 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:28:42.571 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:28:42.572 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/admin/page
+25-03-24.19:31:49.140 [http-nio-8095-exec-6] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:31:49.140 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:42:32.192 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for GET /user/showActivity
+25-03-24.19:43:42.534 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for POST /user/showActivity
+25-03-24.19:44:55.228 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:44:55.229 [http-nio-8095-exec-6] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:46:34.215 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.19:46:34.216 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:17.362 [http-nio-8095-exec-6] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:17.362 [http-nio-8095-exec-9] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:28.151 [http-nio-8095-exec-8] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:28.151 [http-nio-8095-exec-7] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:31.824 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:33.096 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:34.572 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:24:34.888 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:26:43.649 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s893ms110µs500ns).
+25-03-24.20:29:02.865 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m19s214ms641µs800ns).
+25-03-24.20:31:28.695 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s831ms78µs300ns).
+25-03-24.20:32:37.648 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:32:37.648 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:35:14.638 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:35:26.266 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:39:11.536 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:39:11.536 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:39:13.794 [http-nio-8095-exec-9] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:39:13.794 [http-nio-8095-exec-10] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:39:20.201 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:39:20.202 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:39:21.433 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:39:21.433 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:39:24.631 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:39:24.632 [http-nio-8095-exec-8] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.20:40:32.676 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:40:32.676 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:41:20.609 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:41:57.280 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:44:24.845 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:44:24.845 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:45:04.738 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:45:41.861 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:45:41.861 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:46:01.091 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:46:01.091 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:47:27.932 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:47:27.932 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:48:01.725 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:48:01.725 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.binding.BindingException: Parameter 'limit' not found. Available parameters are [offset, pageSize, param1, param2]
+25-03-24.20:49:21.470 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:49:21.493 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:49:51.269 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.20:49:51.335 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：null
+25-03-24.21:01:34.744 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.21:01:34.744 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/showActivity
+25-03-24.21:02:09.568 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:02:11.865 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:02:11.865 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:02:13.540 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:02:14.711 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:02:15.331 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:02:15.871 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:03:06.560 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:03:06.560 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:03:59.321 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：JSON parse error: Cannot deserialize value of type `java.lang.Integer` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.Integer` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]
+25-03-24.21:04:50.925 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:04:50.925 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:07:10.355 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:07:15.914 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:07:15.914 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:07:23.894 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:07:23.894 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:44.188 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:47.312 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:48.502 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:48.883 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:52.319 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:52.892 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:54.239 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:54.525 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:11:54.884 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:14:47.114 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:14:57.815 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:14:57.815 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:16:11.851 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：Required request parameter 'day' for method parameter type Integer is not present
+25-03-24.21:21:48.176 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/add
+25-03-24.21:21:59.439 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for OPTIONS /admin/activity/add
+25-03-24.21:22:47.032 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-03-25 05:00:00": not a valid representation (error: Failed to parse Date value '2025-03-25 05:00:00': Cannot parse date "2025-03-25 05:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2025-03-25 05:00:00": not a valid representation (error: Failed to parse Date value '2025-03-25 05:00:00': Cannot parse date "2025-03-25 05:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 22] (through reference chain: cn.qutacm.pojo.dto.ActivityDTO["startTime"])
+25-03-24.21:24:09.867 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-03-24 06:00:00": not a valid representation (error: Failed to parse Date value '2025-03-24 06:00:00': Cannot parse date "2025-03-24 06:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2025-03-24 06:00:00": not a valid representation (error: Failed to parse Date value '2025-03-24 06:00:00': Cannot parse date "2025-03-24 06:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 22] (through reference chain: cn.qutacm.pojo.dto.ActivityDTO["startTime"])
+25-03-24.21:26:05.532 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-03-03 04:03:04": not a valid representation (error: Failed to parse Date value '2025-03-03 04:03:04': Cannot parse date "2025-03-03 04:03:04": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2025-03-03 04:03:04": not a valid representation (error: Failed to parse Date value '2025-03-03 04:03:04': Cannot parse date "2025-03-03 04:03:04": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 22] (through reference chain: cn.qutacm.pojo.dto.ActivityDTO["startTime"])
+25-03-24.21:27:11.237 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-02-04 00:03:00": not a valid representation (error: Failed to parse Date value '2025-02-04 00:03:00': Cannot parse date "2025-02-04 00:03:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2025-02-04 00:03:00": not a valid representation (error: Failed to parse Date value '2025-02-04 00:03:00': Cannot parse date "2025-02-04 00:03:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 22] (through reference chain: cn.qutacm.pojo.dto.ActivityDTO["startTime"])
+25-03-24.21:28:33.500 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-02-10 00:00:00": not a valid representation (error: Failed to parse Date value '2025-02-10 00:00:00': Cannot parse date "2025-02-10 00:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null)); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2025-02-10 00:00:00": not a valid representation (error: Failed to parse Date value '2025-02-10 00:00:00': Cannot parse date "2025-02-10 00:00:00": while it seems to fit format 'yyyy-MM-dd'T'HH:mm:ss.SSSX', parsing fails (leniency? null))
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 22] (through reference chain: cn.qutacm.pojo.dto.ActivityDTO["startTime"])
+25-03-24.21:54:12.705 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s308ms161µs800ns).
+25-03-24.21:54:13.324 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.147 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.147 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.147 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.147 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.147 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.782 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.805 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.805 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:54:14.814 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.21:56:01.615 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s277ms856µs300ns).
+25-03-24.21:57:18.275 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s660ms29µs300ns).
+25-03-24.21:57:18.276 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'startTIme' in 'class cn.qutacm.pojo.po.Activity'
+25-03-24.23:30:10.406 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s520ms675µs100ns).

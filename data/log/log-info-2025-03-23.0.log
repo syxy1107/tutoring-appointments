@@ -1,0 +1,252 @@
+25-03-23.20:21:06.961 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 8036 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.20:21:06.963 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.20:21:08.785 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.20:21:08.794 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.20:21:08.794 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.20:21:08.796 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.20:21:08.912 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.20:21:08.913 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1908 ms
+25-03-23.20:21:09.304 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.20:21:09.628 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.20:21:09.644 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.20:21:09.652 [main            ] INFO  Application            - Started Application in 3.169 seconds (JVM running for 4.258)
+25-03-23.20:38:07.970 [http-nio-8095-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.20:38:07.970 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.20:38:07.971 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.20:38:07.983 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.20:39:57.030 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.20:40:06.507 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 107764 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.20:40:06.509 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.20:40:07.567 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.20:40:07.575 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.20:40:07.576 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.20:40:07.576 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.20:40:07.676 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.20:40:07.676 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1132 ms
+25-03-23.20:40:08.044 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.20:40:08.405 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.20:40:08.425 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.20:40:08.436 [main            ] INFO  Application            - Started Application in 2.315 seconds (JVM running for 3.106)
+25-03-23.20:40:17.864 [http-nio-8095-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.20:40:17.864 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.20:40:17.865 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.20:40:17.876 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.20:40:39.070 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Required request body is missing: public cn.qutacm.types.common.Response<cn.qutacm.pojo.vo.StudentLoginVO> cn.qutacm.controller.user.UserController.login(cn.qutacm.pojo.dto.StudentLoginDTO)
+25-03-23.20:40:52.840 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 18044 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.20:40:52.842 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.20:40:53.944 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.20:40:53.955 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.20:40:53.956 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.20:40:53.957 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.20:40:54.100 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.20:40:54.100 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1222 ms
+25-03-23.20:40:54.481 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.20:40:54.782 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.20:40:54.796 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.20:40:54.805 [main            ] INFO  Application            - Started Application in 2.357 seconds (JVM running for 3.148)
+25-03-23.20:41:29.656 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 96212 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.20:41:29.658 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.20:41:30.615 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.20:41:30.623 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.20:41:30.623 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.20:41:30.623 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.20:41:30.721 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.20:41:30.722 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1024 ms
+25-03-23.20:41:31.032 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.20:41:31.493 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.20:41:31.514 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.20:41:31.526 [main            ] INFO  Application            - Started Application in 2.315 seconds (JVM running for 3.17)
+25-03-23.20:41:43.492 [http-nio-8095-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.20:41:43.492 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.20:41:43.493 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.20:41:43.521 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：Required request body is missing: public cn.qutacm.types.common.Response<java.lang.Boolean> cn.qutacm.controller.user.UserController.registration(cn.qutacm.pojo.dto.StudentRegistrationDTO)
+25-03-23.20:42:07.204 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for GET /
+25-03-23.20:42:07.372 [http-nio-8095-exec-7] WARN  PageNotFound           - No mapping for GET /favicon.ico
+25-03-23.20:58:14.323 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 110396 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.20:58:14.326 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.20:58:15.401 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.20:58:15.410 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.20:58:15.410 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.20:58:15.410 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.20:58:15.526 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.20:58:15.526 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1166 ms
+25-03-23.20:58:15.839 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.20:58:16.168 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.20:58:16.185 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.20:58:16.197 [main            ] INFO  Application            - Started Application in 2.285 seconds (JVM running for 3.083)
+25-03-23.20:58:26.396 [http-nio-8095-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.20:58:26.396 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.20:58:26.397 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.20:58:26.569 [http-nio-8095-exec-2] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-03-23.20:58:27.187 [http-nio-8095-exec-2] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-03-23.21:31:49.365 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /main.86e83b343d28a1fd9655.hot-update.json
+25-03-23.21:37:07.448 [http-nio-8095-exec-10] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:07.459 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:07.508 [http-nio-8095-exec-2] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:36.083 [http-nio-8095-exec-8] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:36.092 [http-nio-8095-exec-3] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:36.415 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:51.038 [http-nio-8095-exec-6] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:51.050 [http-nio-8095-exec-7] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:37:51.367 [http-nio-8095-exec-9] ERROR GlobalExceptionHandler - 异常信息：Request method 'GET' not supported
+25-03-23.21:39:21.988 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.21:39:24.612 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.21:39:24.614 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.21:40:04.126 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-03-23.21:40:04.352 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-03-23.21:40:10.295 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 101512 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.21:40:10.297 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.21:40:11.479 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.21:40:11.493 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.21:40:11.494 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.21:40:11.495 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.21:40:11.690 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.21:40:11.690 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+25-03-23.21:40:12.011 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.21:40:12.298 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.21:40:12.312 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.21:40:12.321 [main            ] INFO  Application            - Started Application in 2.442 seconds (JVM running for 3.272)
+25-03-23.21:40:19.598 [http-nio-8095-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.21:40:19.598 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.21:40:19.599 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.21:40:19.618 [http-nio-8095-exec-1] ERROR GlobalExceptionHandler - 异常信息：Request method 'POST' not supported
+25-03-23.21:40:19.618 [http-nio-8095-exec-5] ERROR GlobalExceptionHandler - 异常信息：Request method 'POST' not supported
+25-03-23.21:40:19.729 [http-nio-8095-exec-4] ERROR GlobalExceptionHandler - 异常信息：Request method 'POST' not supported
+25-03-23.21:44:28.107 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 98112 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.21:44:28.109 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.21:44:29.179 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.21:44:29.187 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.21:44:29.188 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.21:44:29.188 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.21:44:29.285 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.21:44:29.285 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+25-03-23.21:44:29.728 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.21:44:30.043 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.21:44:30.062 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.21:44:30.071 [main            ] INFO  Application            - Started Application in 2.37 seconds (JVM running for 3.184)
+25-03-23.22:03:37.576 [http-nio-8095-exec-4] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.22:03:37.577 [http-nio-8095-exec-4] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.22:03:37.578 [http-nio-8095-exec-4] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.22:03:37.604 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.604 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.604 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.604 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.804 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.948 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.948 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.948 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:37.949 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:03:38.112 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:04:26.362 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:04:26.557 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:04:41.043 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:04:41.057 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:06:05.305 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 68304 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.22:06:05.308 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.22:06:06.353 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.22:06:06.360 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.22:06:06.361 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.22:06:06.361 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.22:06:06.453 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.22:06:06.453 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1110 ms
+25-03-23.22:06:06.768 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.22:06:07.151 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.22:06:07.166 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.22:06:07.175 [main            ] INFO  Application            - Started Application in 2.259 seconds (JVM running for 3.061)
+25-03-23.22:06:16.129 [http-nio-8095-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.22:06:16.130 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.22:06:16.130 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-23.22:06:16.142 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:06:16.220 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:06:51.090 [http-nio-8095-exec-7] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:06:59.098 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:07:16.404 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:07:16.409 [http-nio-8095-exec-10] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:07:32.597 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:07:32.602 [http-nio-8095-exec-8] WARN  PageNotFound           - No mapping for GET /user/myMessage/null
+25-03-23.22:07:46.738 [http-nio-8095-exec-9] WARN  PageNotFound           - No mapping for GET /user/myMessage
+25-03-23.22:08:00.891 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 99248 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.22:08:00.894 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.22:08:02.026 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.22:08:02.037 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.22:08:02.037 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.22:08:02.037 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.22:08:02.132 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.22:08:02.132 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1195 ms
+25-03-23.22:08:02.533 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.22:08:02.884 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.22:08:02.908 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.22:08:02.921 [main            ] INFO  Application            - Started Application in 2.54 seconds (JVM running for 4.22)
+25-03-23.22:09:27.175 [http-nio-8095-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.22:09:27.175 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.22:09:27.176 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.22:09:27.193 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for GET /user/myMessage
+25-03-23.22:09:27.286 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /user/myMessage
+25-03-23.22:09:43.128 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:09:44.557 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:09:44.562 [http-nio-8095-exec-6] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:09:56.085 [http-nio-8095-exec-7] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:09:56.090 [http-nio-8095-exec-5] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:10:43.122 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 39608 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.22:10:43.124 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.22:10:44.359 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.22:10:44.368 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.22:10:44.369 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.22:10:44.369 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.22:10:44.467 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.22:10:44.468 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1301 ms
+25-03-23.22:10:44.889 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.22:10:45.318 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.22:10:45.336 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.22:10:45.346 [main            ] INFO  Application            - Started Application in 2.714 seconds (JVM running for 3.67)
+25-03-23.22:10:50.793 [http-nio-8095-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.22:10:50.793 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.22:10:50.794 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.22:10:50.811 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:10:50.903 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /user/activity/myMessage
+25-03-23.22:11:08.045 [http-nio-8095-exec-4] WARN  PageNotFound           - No mapping for GET /user/user/myMessage
+25-03-23.22:11:08.051 [http-nio-8095-exec-3] WARN  PageNotFound           - No mapping for GET /user/user/myMessage
+25-03-23.22:11:34.662 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 83024 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.22:11:34.664 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.22:11:35.917 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.22:11:35.934 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.22:11:35.935 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.22:11:35.936 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.22:11:36.068 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.22:11:36.068 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1360 ms
+25-03-23.22:11:36.419 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.22:11:36.852 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.22:11:36.876 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.22:11:36.885 [main            ] INFO  Application            - Started Application in 2.722 seconds (JVM running for 3.617)
+25-03-23.22:12:10.647 [http-nio-8095-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.22:12:10.647 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.22:12:10.648 [http-nio-8095-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.22:12:10.667 [http-nio-8095-exec-2] WARN  PageNotFound           - No mapping for GET /user/user/myMessage
+25-03-23.22:12:10.754 [http-nio-8095-exec-1] WARN  PageNotFound           - No mapping for GET /user/user/myMessage
+25-03-23.22:12:38.393 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 108756 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-23.22:12:38.395 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-23.22:12:39.579 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-23.22:12:39.605 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-23.22:12:39.606 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-23.22:12:39.607 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-23.22:12:39.707 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-23.22:12:39.708 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1270 ms
+25-03-23.22:12:40.047 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-23.22:12:40.396 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-23.22:12:40.414 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-23.22:12:40.424 [main            ] INFO  Application            - Started Application in 2.5 seconds (JVM running for 3.37)
+25-03-23.22:12:52.019 [http-nio-8095-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-23.22:12:52.019 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-23.22:12:52.020 [http-nio-8095-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-03-23.22:12:52.053 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:12:52.074 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.314 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.318 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.319 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.319 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.320 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.322 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.325 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.328 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.329 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:null
+25-03-23.22:16:02.332 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:null

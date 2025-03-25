@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: tutoring-appointments-app
+  profiles:
+    active: test

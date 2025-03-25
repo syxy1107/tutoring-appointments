@@ -1,0 +1,416 @@
+25-03-25.00:00:27.304 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 123320 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-25.00:00:27.308 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-25.00:00:28.664 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-25.00:00:28.674 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-25.00:00:28.675 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-25.00:00:28.675 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-25.00:00:28.798 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-25.00:00:28.798 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1417 ms
+25-03-25.00:00:29.681 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-25.00:00:30.450 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-25.00:00:30.522 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-25.00:00:30.549 [main            ] INFO  Application            - Started Application in 3.843 seconds (JVM running for 4.994)
+25-03-25.00:00:59.439 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 96816 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-25.00:00:59.444 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-25.00:01:00.902 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-25.00:01:00.910 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-25.00:01:00.911 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-25.00:01:00.911 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-25.00:01:01.007 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-25.00:01:01.007 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1504 ms
+25-03-25.00:01:01.923 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-25.00:01:02.512 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-25.00:01:02.564 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-25.00:01:02.607 [main            ] INFO  Application            - Started Application in 3.775 seconds (JVM running for 4.918)
+25-03-25.00:02:00.063 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-03-25.00:02:01.086 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-03-25.00:02:06.903 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'startDay' not found. Available parameters are [start, i, end, param3, param1, param2]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:96)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy73.findByDayBetweenAndStatus(Unknown Source)
+	at cn.qutacm.Scheduler.ActivityCopyScheduler.copyActivitiesToNextWeek(ActivityCopyScheduler.java:72)
+	at cn.qutacm.Scheduler.ActivityCopyScheduler$$FastClassBySpringCGLIB$$3ccb2174.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.qutacm.Scheduler.ActivityCopyScheduler$$EnhancerBySpringCGLIB$$b2a13c2a.copyActivitiesToNextWeek(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.ibatis.binding.BindingException: Parameter 'startDay' not found. Available parameters are [start, i, end, param3, param1, param2]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:212)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:45)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:219)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:146)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:88)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 35 common frames omitted
+25-03-25.00:03:17.215 [scheduling-1    ] ERROR TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.binding.BindingException: Parameter 'startDay' not found. Available parameters are [start, i, end, param3, param1, param2]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:96)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy72.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy73.findByDayBetweenAndStatus(Unknown Source)
+	at cn.qutacm.Scheduler.ActivityCopyScheduler.copyActivitiesToNextWeek(ActivityCopyScheduler.java:72)
+	at cn.qutacm.Scheduler.ActivityCopyScheduler$$FastClassBySpringCGLIB$$3ccb2174.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.qutacm.Scheduler.ActivityCopyScheduler$$EnhancerBySpringCGLIB$$b2a13c2a.copyActivitiesToNextWeek(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.ibatis.binding.BindingException: Parameter 'startDay' not found. Available parameters are [start, i, end, param3, param1, param2]
+	at org.apache.ibatis.binding.MapperMethod$ParamMap.get(MapperMethod.java:212)
+	at org.apache.ibatis.reflection.wrapper.MapWrapper.get(MapWrapper.java:45)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.executor.BaseExecutor.createCacheKey(BaseExecutor.java:219)
+	at org.apache.ibatis.executor.CachingExecutor.createCacheKey(CachingExecutor.java:146)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:88)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 35 common frames omitted
+25-03-25.00:03:17.654 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-03-25.00:03:17.916 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-03-25.00:03:23.852 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 28340 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-25.00:03:23.855 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-25.00:03:25.174 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-25.00:03:25.185 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-25.00:03:25.186 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-25.00:03:25.186 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-25.00:03:25.321 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-25.00:03:25.321 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+25-03-25.00:03:26.265 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-25.00:03:26.861 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-25.00:03:26.923 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-25.00:03:26.956 [main            ] INFO  Application            - Started Application in 3.678 seconds (JVM running for 4.82)
+25-03-25.00:04:00.031 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-03-25.00:04:00.918 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-03-25.00:04:42.457 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-03-25.00:04:42.736 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-03-25.09:56:38.738 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 119024 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-25.09:56:38.742 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-25.09:56:40.034 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-25.09:56:40.169 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1379 ms
+25-03-25.09:56:40.618 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-25.09:56:41.039 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-25.09:56:41.054 [main            ] INFO  Application            - Started Application in 2.938 seconds (JVM running for 4.047)
+25-03-25.09:56:51.809 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on gu603vv with PID 102828 (E:\Java\idea_project\tutoring-appointments\tutoring-appointments-app\target\classes started by huang in E:\Java\idea_project\tutoring-appointments)
+25-03-25.09:56:51.811 [main            ] INFO  Application            - The following 1 profile is active: "test"
+25-03-25.09:56:52.750 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8095 (http)
+25-03-25.09:56:52.758 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8095"]
+25-03-25.09:56:52.759 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-03-25.09:56:52.759 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-03-25.09:56:52.849 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-03-25.09:56:52.849 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1001 ms
+25-03-25.09:56:53.163 [main            ] INFO  WebMvcConfiguration    - 开始注册自定义拦截器...
+25-03-25.09:56:53.454 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8095"]
+25-03-25.09:56:53.475 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8095 (http) with context path ''
+25-03-25.09:56:53.486 [main            ] INFO  Application            - Started Application in 2.125 seconds (JVM running for 2.976)
+25-03-25.09:57:45.186 [http-nio-8095-exec-4] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-03-25.09:57:45.186 [http-nio-8095-exec-4] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-03-25.09:57:45.186 [http-nio-8095-exec-4] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-03-25.09:57:45.237 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:45.237 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:45.237 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:45.237 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:45.237 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:45.308 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:45.308 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:45.308 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:45.308 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:45.308 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:45.353 [http-nio-8095-exec-5] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-03-25.09:57:46.022 [http-nio-8095-exec-5] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-03-25.09:57:46.180 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:46.181 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:46.181 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:46.184 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:46.184 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:46.185 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:46.193 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:46.193 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:46.222 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.09:57:46.222 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.09:57:52.671 [http-nio-8095-exec-5] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwMjk2MDEsInVzZXIiOiJhZG1pbiJ9.v1UsZvJOk_x6nfrVqn1jMibxwCX2LPEQjwsAw0dX2bs
+25-03-25.09:57:52.673 [http-nio-8095-exec-5] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:57:52.673 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwMjk2MDEsInVzZXIiOiJhZG1pbiJ9.v1UsZvJOk_x6nfrVqn1jMibxwCX2LPEQjwsAw0dX2bs
+25-03-25.09:57:52.674 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:08.860 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:08.860 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:08.865 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:08.865 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:12.843 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:12.843 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:13.501 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:13.506 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:14.398 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:14.398 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:14.782 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:14.785 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:16.146 [http-nio-8095-exec-5] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:16.146 [http-nio-8095-exec-5] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:16.532 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:16.532 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:16.859 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:16.859 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:17.324 [http-nio-8095-exec-7] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:17.324 [http-nio-8095-exec-7] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:18.232 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:18.235 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:18.969 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:18.969 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:19.269 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:19.277 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:19.657 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:19.657 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:20.079 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:20.079 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:20.437 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:20.446 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:48.572 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:48.572 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:50.963 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:50.963 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:50.964 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:50.964 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:51.183 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:51.183 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:57.803 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:57.803 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:58:58.870 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:58:58.877 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:00.274 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:00.274 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:01.257 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:01.257 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:24.657 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:24.661 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:24.777 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:24.777 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:26.276 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:26.276 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:32.637 [http-nio-8095-exec-7] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:32.644 [http-nio-8095-exec-7] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:32.747 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:32.750 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:46.422 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:46.424 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:46.424 [http-nio-8095-exec-1] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:46.424 [http-nio-8095-exec-9] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:51.949 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:51.956 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.09:59:51.956 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.09:59:51.957 [http-nio-8095-exec-8] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:00:58.956 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:58.958 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.022 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.022 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.891 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.892 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.894 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.894 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.894 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.894 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.894 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.894 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.894 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.894 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.950 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.956 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.970 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.967 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.970 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.970 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.980 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.980 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:00:59.990 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:00:59.990 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:00.375 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:00.375 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:00.475 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:00.475 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:20.820 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:20.820 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:20.942 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:20.943 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.222 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.222 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.222 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.222 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.222 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.232 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.234 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.234 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.235 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.236 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.253 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.262 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.262 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.262 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.286 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.286 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.302 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.302 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:21.302 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:21.302 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:22.103 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:22.103 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:22.204 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:22.204 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:22.859 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:22.859 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:23.094 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:23.097 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.148 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.148 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.148 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.158 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.158 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.159 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.159 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.159 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.159 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.159 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.206 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.206 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.210 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.210 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.211 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.211 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.215 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.215 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:25.220 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:25.220 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:27.525 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:27.533 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:29.816 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:29.822 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:29.940 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:29.941 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.899 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.899 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.899 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.901 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.901 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.901 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.901 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.901 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.901 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.901 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.952 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.953 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.954 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.954 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.954 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.956 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.956 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.956 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:33.959 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:33.969 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:34.431 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:34.432 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:34.458 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:34.459 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:37.374 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:37.374 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:37.504 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:37.504 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.039 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.039 [http-nio-8095-exec-7] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.040 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.041 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.042 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.042 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.042 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.042 [http-nio-8095-exec-9] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.042 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.042 [http-nio-8095-exec-2] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.055 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.055 [http-nio-8095-exec-5] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.092 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.092 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.092 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.092 [http-nio-8095-exec-6] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.093 [http-nio-8095-exec-10] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.094 [http-nio-8095-exec-4] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:01:38.099 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:01:38.099 [http-nio-8095-exec-3] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:03:38.993 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.10:03:38.993 [http-nio-8095-exec-6] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:03:39.303 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.10:03:39.310 [http-nio-8095-exec-4] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:03:39.680 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.10:03:39.688 [http-nio-8095-exec-10] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:03:40.045 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.10:03:40.045 [http-nio-8095-exec-3] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:03:44.277 [http-nio-8095-exec-5] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.10:03:44.277 [http-nio-8095-exec-5] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:03:46.361 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTAwNjc4ODgsInVzZXIiOiJhZG1pbiJ9.oJWe2zyt83YGQXESxNY2xv6T_LIf0VjwnmadhQ9cf0s
+25-03-25.10:03:46.361 [http-nio-8095-exec-2] INFO  JwtTokenAdminInterceptor - 当前管理员idadmin
+25-03-25.10:04:32.671 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:04:32.671 [http-nio-8095-exec-8] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
+25-03-25.10:04:32.727 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - jwt校验:eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDk5OTcyMTUsIlN0dWRlbnRJZCI6IjEyMzQ1Njc4OTQ1In0.7smN9sga06f6KH7J7_K6-l_zj5YRAIKpGEz4ndKkrc8
+25-03-25.10:04:32.732 [http-nio-8095-exec-1] INFO  JwtTokenUserInterceptor - 当前学生id12345678945
