@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.qutacm.dao.ActivityDao">
+
+    <resultMap id="ActivityResultMap" type="cn.qutacm.pojo.po.Activity">
+        <!-- 主键字段 -->
+        <id column="id" property="id" />
+        <!-- 普通字段 -->
+        <result column="day" property="day" />
+        <result column="startTime" property="startTime" />
+        <result column="endTime" property="endTime" />
+        <result column="personCount" property="personCount" />
+        <result column="status" property="status" />
+    </resultMap>
+    <insert id="insert">
+        insert into activity (day,startTIme,endTime,personCount,status)
+        values (#{day},#{startTime},#{endTime},#{personCount},#{status})
+    </insert>
+    <update id="decrCountByActivityId" >
+        update activity set personCount=personCount-1 where id=#{activityId} and status=1
+    </update>
+    <delete id="delete">
+#         delete from activity where start_time=#{startTime} and end_tiem=#{endTime}
+        update activity set status=0 where start_time=#{startTime} and end_time=#{endTime}
+    </delete>
+    <update id="deleteById">
+        update activity set status=0 where id=#{id}
+    </update>
+    <select id="queryStartActivityByDay" resultType="cn.qutacm.pojo.po.Activity">
+        select startTime,endTime,id from activity
+        where day=#{day} and status=1 and personCount>0
+    </select>
+    <select id="queryCountByActivityId" resultType="java.lang.Integer">
+        select personCount from activity where id=#{acitvityId} and status=1
+    </select>
+    <select id="getByStartAndEnd"  resultMap="ActivityResultMap">
+        select * from activity where start_time=#{startTime} and end_tiem=#{endTime} and day=#{day}
+    </select>
+    <select id="getById" resultType="cn.qutacm.pojo.po.Activity">
+        select * from activity where id=#{activittId}
+    </select>
+    <select id="findByDayBetweenAndStatus"  resultMap="ActivityResultMap">
+        SELECT
+            *
+        FROM
+            activity
+        WHERE
+            startTime BETWEEN #{start} AND #{end}
+          AND status = 1
+        ORDER BY
+            startTime
+    </select>
+
+</mapper>

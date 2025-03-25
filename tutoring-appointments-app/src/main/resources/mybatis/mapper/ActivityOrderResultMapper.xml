@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.qutacm.dao.ActivityOrderDao">
+
+    <resultMap id="ResultMap" type="cn.qutacm.pojo.po.ActivityOrder">
+        <!-- 主键字段 -->
+        <id column="id" property="id" />
+        <!-- 普通字段 -->
+        <result column="student_id" property="studentId" />
+        <result column="activity_id" property="activityId" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+    <insert id="insert">
+        INSERT INTO activity_order (
+            student_id, activity_id, create_time
+        ) VALUES (
+                     #{studentId}, #{activityId}, #{createTime}
+                 )
+    </insert>
+    <select id="getByStudentId" resultMap="ResultMap">
+        select * from activity_order
+        where student_id=#{studentId}
+    </select>
+    <select id="getByPage" resultMap="ResultMap">
+        SELECT *
+        FROM activity_order
+        LIMIT #{limit} OFFSET #{offset}
+    </select>
+</mapper>

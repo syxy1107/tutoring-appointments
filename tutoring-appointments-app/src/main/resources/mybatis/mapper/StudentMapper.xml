@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.qutacm.dao.StudentDao">
+
+    <resultMap id="dataMap" type="cn.qutacm.pojo.po.Student">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="college" property="college"/>
+        <result column="classes" property="classes"/>
+        <result column="student_id" property="studentId"/>
+        <result column="phone_number" property="phoneNumber"/>
+        <result column="password" property="password"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+    <insert id="insert">
+        insert into student(name,college,classes,student_id,phone_number,password,create_time)
+        values (#{name},#{college},#{classes},#{studentId},#{phoneNumber},#{password},#{createTime})
+    </insert>
+    <select id="queryCountByStudentId" resultType="java.lang.Integer">
+        select count(student_id)
+        from student
+        where student_id=#{studentId}
+    </select>
+    <select id="getByStudentId"  resultMap="dataMap">
+        select * from student
+        where student_id=#{sutdentId}
+    </select>
+</mapper>
